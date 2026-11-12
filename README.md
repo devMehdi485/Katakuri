@@ -1,4 +1,4 @@
-# PC Security Check
+# Katakuri - PC Security Check
 
 Un outil PowerShell **local, sans suppression et sans télémétrie** pour rechercher des indicateurs d'un stealer Python s'auto-identifiant **D3M0N STEALER V2**.
 
