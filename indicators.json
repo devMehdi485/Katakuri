@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-12",
+  "description": "Indicateurs d'un echantillon s'auto-identifiant D3M0N STEALER V2. Detection ciblee, non exhaustive.",
+  "files": [
+    {"id":"stealer-microsoft","relativePath":"AppData/Roaming/Microsoft/Microsoft.System.Net.Primitives","sha256":"0ECB248921169703A8971A610F37A3CCC2D03EA8954B59C93DA3AA6C2C7E75A4","classification":"malware"},
+    {"id":"stealer-zotero","relativePath":"AppData/Roaming/Zotero/Zotero.Spoc","sha256":"0ECB248921169703A8971A610F37A3CCC2D03EA8954B59C93DA3AA6C2C7E75A4","classification":"malware"},
+    {"id":"stealer-npm","relativePath":"AppData/Roaming/npm/npm.System.Runtime.Serialization.Xml","sha256":"0ECB248921169703A8971A610F37A3CCC2D03EA8954B59C93DA3AA6C2C7E75A4","classification":"malware"},
+    {"id":"stealer-mozilla","relativePath":"AppData/Roaming/Mozilla/Mozilla.Mapper","sha256":"0ECB248921169703A8971A610F37A3CCC2D03EA8954B59C93DA3AA6C2C7E75A4","classification":"malware"},
+    {"id":"stealer-fortnite","relativePath":"AppData/Local/FortniteGame/FortniteGame.Spoc","sha256":"0ECB248921169703A8971A610F37A3CCC2D03EA8954B59C93DA3AA6C2C7E75A4","classification":"malware"},
+    {"id":"stealer-crashreport","relativePath":"AppData/Local/CrashReportClient/CrashReportClient.System.Runtime.Serialization.Xml","sha256":"0ECB248921169703A8971A610F37A3CCC2D03EA8954B59C93DA3AA6C2C7E75A4","classification":"malware"},
+    {"id":"suspicious-startup-launcher","relativePath":"AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/WinSecurityUpdate.exe","sha256":"CD15F17B5382C676FE857FD9E7EFFE0B787F95611538F4193C60A65F2637DD79","classification":"suspicious"}
+  ],
+  "collectionFiles": ["d3passwords.txt","d3cookies.txt","d3creditcards.txt","d3autofill.txt","d3history.txt","d3parsedcookies.txt","d3bookmarks.txt"],
+  "notes": [
+    "La seconde empreinte identifie un lanceur Python renomme : son role malveillant n'est pas confirme.",
+    "Une correspondance de nom ou de demarrage seule est suspecte, pas une preuve definitive.",
+    "Aucun jeton, webhook complet, echantillon executable ou donnee de victime n'est inclus."
+  ]
+}

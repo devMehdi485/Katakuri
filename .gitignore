@@ -1,0 +1,14 @@
+# Rapports locaux et donnees de diagnostic : ne jamais publier automatiquement.
+/reports/
+/mes-rapports/
+/rapports-hors-ligne/
+/test-results/
+check-*.json
+check-*.html
+*.log
+*.zip
+*.b64.txt
+*.dpapi.bin
+__pycache__/
+.DS_Store
+Thumbs.db
